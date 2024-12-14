@@ -2,7 +2,7 @@
 - What is the problem you're trying to solve?
   - The prupose of this program is demonstrate how to create an encrypted client-server message program.
 - How did you solve it?
-  - This program uses sockets for communication and OpenSSL for encryption / decryption.
+  - This program uses sockets for communication and OpenSSL for encryption / decryption and server authentication.
 - Why are you working on this problem?
   - Originally, the plan was to create custom packets and encryption. But available libraries performed these actions better.
   - So, I decided to change to a demo program which can show students / developers how to use sockets and OpenSSL.
