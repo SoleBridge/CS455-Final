@@ -210,7 +210,8 @@ void client(const char *server_ip) {
             break;
         }
 
-        printf("Encrypted message (hex): ");
+		// Print encrypted message
+        printf("Encrypted message: 0x");
         for (int i = 0; i < encrypted_len; i++) {
             printf("%02x", encrypted[i]);
         }
