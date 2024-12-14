@@ -10,6 +10,11 @@
   - Client and Server authentication were proposed. However, I wanted to simplify the program for demonstration purposes.
 ---
 # Build and Run:
+## Certificate Generation
+- Enter the following command, and follow the prompts to generate the required authentication files:
+```bash
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
+```
 ## Compilation
 - Compile the program with:
 ```bash
