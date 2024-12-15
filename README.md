@@ -1,5 +1,5 @@
 # Overview:
-- Application overview [YouTube video](https://youtu.be/N_R_G6CO4Rk)
+- Application overview [YouTube video](https://youtu.be/N_R_G6CO4Rk).
 - What is the problem you're trying to solve?
   - The prupose of this program is demonstrate how to create an encrypted and authenticated client-server message program.
 - How did you solve it?
